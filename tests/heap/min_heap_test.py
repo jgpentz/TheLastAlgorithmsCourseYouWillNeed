@@ -4,7 +4,7 @@ from typing import List
 
 import pytest
 
-from course.day6.heap.min_heap import MinHeap
+from course.day0.heap.min_heap import MinHeap
 from course.utils import is_empty_class
 
 
@@ -114,7 +114,7 @@ from typing import List
 
 import pytest
 
-from course.day6.heap.min_heap import MinHeap
+from course.day0.heap.min_heap import MinHeap
 from course.utils import is_empty_class
 
 
@@ -224,7 +224,7 @@ from typing import List
 
 import pytest
 
-from course.day6.heap.min_heap import MinHeap
+from course.day0.heap.min_heap import MinHeap
 from course.utils import is_empty_class
 
 
@@ -334,7 +334,7 @@ from typing import List
 
 import pytest
 
-from course.day6.heap.min_heap import MinHeap
+from course.day0.heap.min_heap import MinHeap
 from course.utils import is_empty_class
 
 

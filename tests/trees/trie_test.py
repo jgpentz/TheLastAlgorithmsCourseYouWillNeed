@@ -1,6 +1,6 @@
 import pytest
 
-from course.day6.trees.trie import Trie
+from course.day0.trees.trie import Trie
 from course.utils import is_empty_class
 
 
@@ -52,7 +52,7 @@ class TestTrie:
         assert trie.delete("foo") is None
 import pytest
 
-from course.day6.trees.trie import Trie
+from course.day0.trees.trie import Trie
 from course.utils import is_empty_class
 
 
@@ -104,7 +104,7 @@ class TestTrie:
         assert trie.delete("foo") is None
 import pytest
 
-from course.day6.trees.trie import Trie
+from course.day0.trees.trie import Trie
 from course.utils import is_empty_class
 
 
@@ -156,7 +156,7 @@ class TestTrie:
         assert trie.delete("foo") is None
 import pytest
 
-from course.day6.trees.trie import Trie
+from course.day0.trees.trie import Trie
 from course.utils import is_empty_class
 
 

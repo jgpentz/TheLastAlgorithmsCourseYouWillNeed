@@ -3,7 +3,7 @@ from typing import List
 
 import pytest
 
-from course.day6.doubly_linked_list.doubly_linked_list import LinkedList
+from course.day0.doubly_linked_list.doubly_linked_list import LinkedList
 from course.utils import is_empty_class
 
 
@@ -166,7 +166,7 @@ from typing import List
 
 import pytest
 
-from course.day6.doubly_linked_list.doubly_linked_list import LinkedList
+from course.day0.doubly_linked_list.doubly_linked_list import LinkedList
 from course.utils import is_empty_class
 
 
@@ -329,7 +329,7 @@ from typing import List
 
 import pytest
 
-from course.day6.doubly_linked_list.doubly_linked_list import LinkedList
+from course.day0.doubly_linked_list.doubly_linked_list import LinkedList
 from course.utils import is_empty_class
 
 
@@ -492,7 +492,7 @@ from typing import List
 
 import pytest
 
-from course.day6.doubly_linked_list.doubly_linked_list import LinkedList
+from course.day0.doubly_linked_list.doubly_linked_list import LinkedList
 from course.utils import is_empty_class
 
 

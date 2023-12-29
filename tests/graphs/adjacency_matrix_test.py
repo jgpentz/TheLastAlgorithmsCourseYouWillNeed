@@ -2,7 +2,7 @@ from typing import List
 
 import pytest
 
-from course.day6.graphs.adjacency_matrix import adjacency_list_dfs, adjacency_matrix_bfs
+from course.day0.graphs.adjacency_matrix import adjacency_list_dfs, adjacency_matrix_bfs
 from course.utils import is_empty_function
 from tests.graphs.graph_examples import (
     graph_list_1,
@@ -75,7 +75,7 @@ from typing import List
 
 import pytest
 
-from course.day6.graphs.adjacency_matrix import adjacency_list_dfs, adjacency_matrix_bfs
+from course.day0.graphs.adjacency_matrix import adjacency_list_dfs, adjacency_matrix_bfs
 from course.utils import is_empty_function
 from tests.graphs.graph_examples import (
     graph_list_1,
@@ -148,7 +148,7 @@ from typing import List
 
 import pytest
 
-from course.day6.graphs.adjacency_matrix import adjacency_list_dfs, adjacency_matrix_bfs
+from course.day0.graphs.adjacency_matrix import adjacency_list_dfs, adjacency_matrix_bfs
 from course.utils import is_empty_function
 from tests.graphs.graph_examples import (
     graph_list_1,
@@ -221,7 +221,7 @@ from typing import List
 
 import pytest
 
-from course.day6.graphs.adjacency_matrix import adjacency_list_dfs, adjacency_matrix_bfs
+from course.day0.graphs.adjacency_matrix import adjacency_list_dfs, adjacency_matrix_bfs
 from course.utils import is_empty_function
 from tests.graphs.graph_examples import (
     graph_list_1,

@@ -2,7 +2,7 @@ from typing import List
 
 import pytest
 
-from course.day6.graphs.dijkstra import (
+from course.day0.graphs.dijkstra import (
     dijkstra_list_shortest_path,
     dijkstra_list_shortest_path_min_heap,
 )
@@ -71,7 +71,7 @@ from typing import List
 
 import pytest
 
-from course.day6.graphs.dijkstra import (
+from course.day0.graphs.dijkstra import (
     dijkstra_list_shortest_path,
     dijkstra_list_shortest_path_min_heap,
 )
@@ -140,7 +140,7 @@ from typing import List
 
 import pytest
 
-from course.day6.graphs.dijkstra import (
+from course.day0.graphs.dijkstra import (
     dijkstra_list_shortest_path,
     dijkstra_list_shortest_path_min_heap,
 )
@@ -209,7 +209,7 @@ from typing import List
 
 import pytest
 
-from course.day6.graphs.dijkstra import (
+from course.day0.graphs.dijkstra import (
     dijkstra_list_shortest_path,
     dijkstra_list_shortest_path_min_heap,
 )

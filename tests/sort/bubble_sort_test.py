@@ -3,7 +3,7 @@ from typing import List
 
 import pytest
 
-from course.day6.sort.bubble_sort import bubble_sort
+from course.day0.sort.bubble_sort import bubble_sort
 from course.utils import is_empty_function
 
 
@@ -37,7 +37,7 @@ from typing import List
 
 import pytest
 
-from course.day6.sort.bubble_sort import bubble_sort
+from course.day0.sort.bubble_sort import bubble_sort
 from course.utils import is_empty_function
 
 
@@ -71,7 +71,7 @@ from typing import List
 
 import pytest
 
-from course.day6.sort.bubble_sort import bubble_sort
+from course.day0.sort.bubble_sort import bubble_sort
 from course.utils import is_empty_function
 
 
@@ -105,7 +105,7 @@ from typing import List
 
 import pytest
 
-from course.day6.sort.bubble_sort import bubble_sort
+from course.day0.sort.bubble_sort import bubble_sort
 from course.utils import is_empty_function
 
 

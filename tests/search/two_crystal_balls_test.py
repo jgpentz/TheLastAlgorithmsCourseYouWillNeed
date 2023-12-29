@@ -2,7 +2,7 @@ import random
 
 import pytest
 
-from course.day6.search.two_crystal_balls import two_crystal_balls, two_crystal_balls_logn
+from course.day0.search.two_crystal_balls import two_crystal_balls, two_crystal_balls_logn
 from course.utils import is_empty_function
 
 
@@ -75,7 +75,7 @@ import random
 
 import pytest
 
-from course.day6.search.two_crystal_balls import two_crystal_balls, two_crystal_balls_logn
+from course.day0.search.two_crystal_balls import two_crystal_balls, two_crystal_balls_logn
 from course.utils import is_empty_function
 
 
@@ -148,7 +148,7 @@ import random
 
 import pytest
 
-from course.day6.search.two_crystal_balls import two_crystal_balls, two_crystal_balls_logn
+from course.day0.search.two_crystal_balls import two_crystal_balls, two_crystal_balls_logn
 from course.utils import is_empty_function
 
 
@@ -221,7 +221,7 @@ import random
 
 import pytest
 
-from course.day6.search.two_crystal_balls import two_crystal_balls, two_crystal_balls_logn
+from course.day0.search.two_crystal_balls import two_crystal_balls, two_crystal_balls_logn
 from course.utils import is_empty_function
 
 

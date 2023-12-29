@@ -1,7 +1,7 @@
 import pytest
 
-from course.day6.trees.binary_tree_search import search_bfs, search_dfs
-from course.day6.trees.binary_tree_traversal import pre_order_traversal
+from course.day0.trees.binary_tree_search import search_bfs, search_dfs
+from course.day0.trees.binary_tree_traversal import pre_order_traversal
 from course.utils import is_empty_function
 from tests.trees.tree_examples import tree_1 as tree
 
@@ -67,8 +67,8 @@ class TestBinaryTreeSearch111:
         assert result is True
 import pytest
 
-from course.day6.trees.binary_tree_search import search_bfs, search_dfs
-from course.day6.trees.binary_tree_traversal import pre_order_traversal
+from course.day0.trees.binary_tree_search import search_bfs, search_dfs
+from course.day0.trees.binary_tree_traversal import pre_order_traversal
 from course.utils import is_empty_function
 from tests.trees.tree_examples import tree_1 as tree
 
@@ -134,8 +134,8 @@ class TestBinaryTreeSearch111:
         assert result is True
 import pytest
 
-from course.day6.trees.binary_tree_search import search_bfs, search_dfs
-from course.day6.trees.binary_tree_traversal import pre_order_traversal
+from course.day0.trees.binary_tree_search import search_bfs, search_dfs
+from course.day0.trees.binary_tree_traversal import pre_order_traversal
 from course.utils import is_empty_function
 from tests.trees.tree_examples import tree_1 as tree
 
@@ -201,8 +201,8 @@ class TestBinaryTreeSearch111:
         assert result is True
 import pytest
 
-from course.day6.trees.binary_tree_search import search_bfs, search_dfs
-from course.day6.trees.binary_tree_traversal import pre_order_traversal
+from course.day0.trees.binary_tree_search import search_bfs, search_dfs
+from course.day0.trees.binary_tree_traversal import pre_order_traversal
 from course.utils import is_empty_function
 from tests.trees.tree_examples import tree_1 as tree
 

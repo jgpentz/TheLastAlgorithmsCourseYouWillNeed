@@ -1,6 +1,6 @@
 import pytest
 
-from course.day6.trees.compare_binary_trees import compare_bfs, compare_dfs
+from course.day0.trees.compare_binary_trees import compare_bfs, compare_dfs
 from course.utils import is_empty_function
 from tests.trees.tree_examples import tree_1, tree_2
 
@@ -64,7 +64,7 @@ class TestBinaryTreeComparison:
         assert result is False
 import pytest
 
-from course.day6.trees.compare_binary_trees import compare_bfs, compare_dfs
+from course.day0.trees.compare_binary_trees import compare_bfs, compare_dfs
 from course.utils import is_empty_function
 from tests.trees.tree_examples import tree_1, tree_2
 
@@ -128,7 +128,7 @@ class TestBinaryTreeComparison:
         assert result is False
 import pytest
 
-from course.day6.trees.compare_binary_trees import compare_bfs, compare_dfs
+from course.day0.trees.compare_binary_trees import compare_bfs, compare_dfs
 from course.utils import is_empty_function
 from tests.trees.tree_examples import tree_1, tree_2
 
@@ -192,7 +192,7 @@ class TestBinaryTreeComparison:
         assert result is False
 import pytest
 
-from course.day6.trees.compare_binary_trees import compare_bfs, compare_dfs
+from course.day0.trees.compare_binary_trees import compare_bfs, compare_dfs
 from course.utils import is_empty_function
 from tests.trees.tree_examples import tree_1, tree_2
 

@@ -3,7 +3,7 @@ from typing import List
 
 import pytest
 
-from course.day6.quick_sort.quick_sort import quick_sort, quick_sort_middle_pivot
+from course.day0.quick_sort.quick_sort import quick_sort, quick_sort_middle_pivot
 from course.utils import is_empty_function
 
 
@@ -75,7 +75,7 @@ from typing import List
 
 import pytest
 
-from course.day6.quick_sort.quick_sort import quick_sort, quick_sort_middle_pivot
+from course.day0.quick_sort.quick_sort import quick_sort, quick_sort_middle_pivot
 from course.utils import is_empty_function
 
 
@@ -147,7 +147,7 @@ from typing import List
 
 import pytest
 
-from course.day6.quick_sort.quick_sort import quick_sort, quick_sort_middle_pivot
+from course.day0.quick_sort.quick_sort import quick_sort, quick_sort_middle_pivot
 from course.utils import is_empty_function
 
 
@@ -219,7 +219,7 @@ from typing import List
 
 import pytest
 
-from course.day6.quick_sort.quick_sort import quick_sort, quick_sort_middle_pivot
+from course.day0.quick_sort.quick_sort import quick_sort, quick_sort_middle_pivot
 from course.utils import is_empty_function
 
 

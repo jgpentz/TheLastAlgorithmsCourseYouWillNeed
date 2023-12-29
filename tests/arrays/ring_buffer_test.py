@@ -3,7 +3,7 @@ from typing import List
 
 import pytest
 
-from course.day6.arrays.ring_buffer import RingBuffer
+from course.day0.arrays.ring_buffer import RingBuffer
 from course.utils import is_empty_class
 
 
@@ -156,7 +156,7 @@ from typing import List
 
 import pytest
 
-from course.day6.arrays.ring_buffer import RingBuffer
+from course.day0.arrays.ring_buffer import RingBuffer
 from course.utils import is_empty_class
 
 
@@ -309,7 +309,7 @@ from typing import List
 
 import pytest
 
-from course.day6.arrays.ring_buffer import RingBuffer
+from course.day0.arrays.ring_buffer import RingBuffer
 from course.utils import is_empty_class
 
 
@@ -462,7 +462,7 @@ from typing import List
 
 import pytest
 
-from course.day6.arrays.ring_buffer import RingBuffer
+from course.day0.arrays.ring_buffer import RingBuffer
 from course.utils import is_empty_class
 
 

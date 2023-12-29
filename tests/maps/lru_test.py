@@ -3,7 +3,7 @@ from typing import List
 
 import pytest
 
-from course.day6.maps.lru import LRU
+from course.day0.maps.lru import LRU
 from course.utils import is_empty_class
 
 
@@ -148,7 +148,7 @@ from typing import List
 
 import pytest
 
-from course.day6.maps.lru import LRU
+from course.day0.maps.lru import LRU
 from course.utils import is_empty_class
 
 
@@ -293,7 +293,7 @@ from typing import List
 
 import pytest
 
-from course.day6.maps.lru import LRU
+from course.day0.maps.lru import LRU
 from course.utils import is_empty_class
 
 
@@ -438,7 +438,7 @@ from typing import List
 
 import pytest
 
-from course.day6.maps.lru import LRU
+from course.day0.maps.lru import LRU
 from course.utils import is_empty_class
 
 

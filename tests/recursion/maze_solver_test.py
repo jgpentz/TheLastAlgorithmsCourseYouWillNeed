@@ -1,7 +1,7 @@
 import pytest
 
 from course.data_structures import Point
-from course.day6.recursion.maze_solver import maze_solver
+from course.day0.recursion.maze_solver import maze_solver
 from course.utils import is_empty_function
 
 
@@ -91,7 +91,7 @@ class TestMazeSolver:
 import pytest
 
 from course.data_structures import Point
-from course.day6.recursion.maze_solver import maze_solver
+from course.day0.recursion.maze_solver import maze_solver
 from course.utils import is_empty_function
 
 
@@ -181,7 +181,7 @@ class TestMazeSolver:
 import pytest
 
 from course.data_structures import Point
-from course.day6.recursion.maze_solver import maze_solver
+from course.day0.recursion.maze_solver import maze_solver
 from course.utils import is_empty_function
 
 
@@ -271,7 +271,7 @@ class TestMazeSolver:
 import pytest
 
 from course.data_structures import Point
-from course.day6.recursion.maze_solver import maze_solver
+from course.day0.recursion.maze_solver import maze_solver
 from course.utils import is_empty_function
 
 

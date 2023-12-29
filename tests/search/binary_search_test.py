@@ -2,7 +2,7 @@ from typing import Tuple
 
 import pytest
 
-from course.day6.search.binary_search import binary_search
+from course.day0.search.binary_search import binary_search
 from course.utils import is_empty_function
 
 
@@ -34,7 +34,7 @@ from typing import Tuple
 
 import pytest
 
-from course.day6.search.binary_search import binary_search
+from course.day0.search.binary_search import binary_search
 from course.utils import is_empty_function
 
 
@@ -66,7 +66,7 @@ from typing import Tuple
 
 import pytest
 
-from course.day6.search.binary_search import binary_search
+from course.day0.search.binary_search import binary_search
 from course.utils import is_empty_function
 
 
@@ -98,7 +98,7 @@ from typing import Tuple
 
 import pytest
 
-from course.day6.search.binary_search import binary_search
+from course.day0.search.binary_search import binary_search
 from course.utils import is_empty_function
 
 

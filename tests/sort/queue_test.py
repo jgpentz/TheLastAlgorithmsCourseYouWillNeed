@@ -3,7 +3,7 @@ from typing import List
 
 import pytest
 
-from course.day6.sort.queue import Queue
+from course.day0.sort.queue import Queue
 from course.utils import is_empty_class
 
 
@@ -80,7 +80,7 @@ from typing import List
 
 import pytest
 
-from course.day6.sort.queue import Queue
+from course.day0.sort.queue import Queue
 from course.utils import is_empty_class
 
 
@@ -157,7 +157,7 @@ from typing import List
 
 import pytest
 
-from course.day6.sort.queue import Queue
+from course.day0.sort.queue import Queue
 from course.utils import is_empty_class
 
 
@@ -234,7 +234,7 @@ from typing import List
 
 import pytest
 
-from course.day6.sort.queue import Queue
+from course.day0.sort.queue import Queue
 from course.utils import is_empty_class
 
 

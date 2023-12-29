@@ -1,6 +1,6 @@
 import pytest
 
-from course.day6.trees.binary_tree_traversal import (
+from course.day0.trees.binary_tree_traversal import (
     in_order_traversal,
     post_order_traversal,
     pre_order_traversal,
@@ -45,7 +45,7 @@ class TestBinaryTreeTraversal:
         assert path == expected_path
 import pytest
 
-from course.day6.trees.binary_tree_traversal import (
+from course.day0.trees.binary_tree_traversal import (
     in_order_traversal,
     post_order_traversal,
     pre_order_traversal,
@@ -90,7 +90,7 @@ class TestBinaryTreeTraversal:
         assert path == expected_path
 import pytest
 
-from course.day6.trees.binary_tree_traversal import (
+from course.day0.trees.binary_tree_traversal import (
     in_order_traversal,
     post_order_traversal,
     pre_order_traversal,
@@ -135,7 +135,7 @@ class TestBinaryTreeTraversal:
         assert path == expected_path
 import pytest
 
-from course.day6.trees.binary_tree_traversal import (
+from course.day0.trees.binary_tree_traversal import (
     in_order_traversal,
     post_order_traversal,
     pre_order_traversal,
