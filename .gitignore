@@ -119,7 +119,6 @@ venv.bak/
 
 # mkdocs documentation
 /site
-
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -138,4 +137,7 @@ notebooks/**/_*.ipynb
 .DS_STORE
 
 # Pycharm
-.idea
+.ide
+
+# Ignore days
+course/day*/

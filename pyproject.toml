@@ -9,6 +9,7 @@ version = "0.1.0"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+click = "^8.1.7"
 
 [tool.poetry.group.dev]
 optional = true
@@ -91,3 +92,7 @@ line_length = 120
 [build-system]
 build-backend = "poetry.core.masonry.api"
 requires = ["poetry-core"]
+
+# -------------------------------------- Scripts --------------------------------------
+[tool.poetry.scripts]
+kata = "kata.cli:cli"
