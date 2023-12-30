@@ -63,7 +63,19 @@ Project structure might look a bit strange (why in the world queue and stack imp
     poetry install
     ```
 
-2. Implement an algorithm and run tests:
+2. Activate a poetry shell
+    
+    ```bash
+    poetry shell
+    ```
+
+3. Create a new day filled with algorithm function stubs
+
+    ```bash
+    poetry run kata --generate
+    ```
+
+4. Implement an algorithm and run tests (tests only run on the most recent day):
 
     - To run all tests:
 
