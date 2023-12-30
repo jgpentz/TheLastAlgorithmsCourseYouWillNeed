@@ -69,13 +69,22 @@ Project structure might look a bit strange (why in the world queue and stack imp
     poetry shell
     ```
 
-3. Create a new day filled with algorithm function stubs
+3. Create a new day of katas 
 
     ```bash
     poetry run kata --generate
     ```
 
-4. Implement an algorithm and run tests (tests only run on the most recent day):
+    This will progressively create folders named    
+
+
+    ```
+    course/day1
+    course/day2
+    ...
+    ```
+
+4. Implement an algorithm and run tests (tests only run on the katas in the latest day folder):
 
     - To run all tests:
 
