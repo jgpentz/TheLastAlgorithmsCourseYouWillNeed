@@ -9,7 +9,7 @@ import yaml
 def cli(generate):
     # Open the day.yaml and increment the day 
     day_path = Path(__file__).parent.parent / 'course' / 'day.yaml'
-    with open(day_path, 'r+') as f:
+    with open(day_path, 'r') as f:
         day_yaml = yaml.safe_load(f)
         next_day= day_yaml['day'] + 1
         day_yaml['day'] = next_day
@@ -28,8 +28,8 @@ def cli(generate):
                     line = re.sub('day[0-9]*', f'day{next_day}', line)
                     lines[i] = line
 
-            with open(file, 'w') as f:
-                f.writelines(lines)
+        with open(file, 'w') as f:
+            f.writelines(lines)
 
     # Create new day folder and copy golden files into it
     new_day_path = Path(__file__).parent.parent / 'course' / f'day{next_day}'
