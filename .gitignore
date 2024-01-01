@@ -141,3 +141,5 @@ notebooks/**/_*.ipynb
 
 # Ignore days
 course/day*/
+course/day.yaml
+
