@@ -16,6 +16,14 @@ class ArrayList:
     -----------------------------
                ↑             ↑
              length       capacity
+
+    Expected functions:
+        prepend(val)
+        append(val)
+        get(idx)
+        remove(val)
+        remove_at(idx)
+        pop()
     """
 
     ...
