@@ -3,7 +3,7 @@ from typing import List
 
 import pytest
 
-from course.day0.arrays.array_list import ArrayList
+from course.day1.arrays.array_list import ArrayList
 from course.utils import is_empty_class
 
 

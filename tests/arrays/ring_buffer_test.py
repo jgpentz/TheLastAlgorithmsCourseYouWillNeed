@@ -3,7 +3,7 @@ from typing import List
 
 import pytest
 
-from course.day0.arrays.ring_buffer import RingBuffer
+from course.day1.arrays.ring_buffer import RingBuffer
 from course.utils import is_empty_class
 
 
@@ -23,8 +23,8 @@ class TestRingBuffer:
 
         buffer.push(42)
         buffer.push(9)
-        assert buffer.pop() == 9
         assert buffer.pop() == 42
+        assert buffer.pop() == 9
         assert buffer.pop() is None
 
         buffer.push(42)
@@ -51,7 +51,7 @@ class TestRingBuffer:
         # Note: the oldest value is 2, the latest value is 6
 
         # Then
-        for expected_number in [6, 5, 4, 3, 2]:
+        for expected_number in [2, 3, 4, 5, 6]:
             assert buffer.pop() == expected_number
 
     def test_ring_buffer_get_with_overwrite(self) -> None:
@@ -103,7 +103,7 @@ class TestRingBuffer:
             buffer.push(number)
 
         # Then
-        for expected_number in numbers[:-6:-1]:
+        for expected_number in numbers[-5:]:
             assert buffer.pop() == expected_number
 
     @pytest.mark.parametrize(
@@ -124,7 +124,7 @@ class TestRingBuffer:
             buffer.push(number)
 
         # Then
-        for expected_number in numbers[: -(capacity + 1) : -1]:
+        for expected_number in numbers[-1 * capacity:]:
             assert buffer.pop() == expected_number
 
     @pytest.mark.parametrize(
@@ -149,5 +149,5 @@ class TestRingBuffer:
             buffer.push(number)
 
         # Then
-        for expected_number in numbers[: -(capacity + 1) : -1]:
+        for expected_number in numbers[-1 * capacity:]:
             assert buffer.pop() == expected_number

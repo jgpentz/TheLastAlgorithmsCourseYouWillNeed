@@ -11,7 +11,7 @@ class RingBuffer:
     |   1  |   2  |   3  |   4  |
     -----------------------------
         ↑                    ↑
-       head                tail
+       tail                head 
 
     after adding 5 and 6:
 
@@ -19,12 +19,17 @@ class RingBuffer:
     |   5  |   6  |   3  |   4  |
     -----------------------------
                ↑      ↑
-             tail    head
+             head    tail 
 
     Capacity is 4 elements. When `5` was added it was placed at the place of `1`,
     the next value of 6 is placed after `5` (where `2` was previously).
     When `.pop` method is called it should return value where the tail is,
         `get` should apply offset from the head
+
+    Expected functions:
+        push(val)
+        pop() -> val
+        get(idx) -> val
     """
 
     ...
